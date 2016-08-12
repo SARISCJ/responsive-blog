@@ -1,0 +1,73 @@
+/* Util class */
+
+.bg-purple{
+	background-color: #2D2735;
+}
+
+.bg-black{
+	background-color: #1B1821;
+}
+
+.text-yellow{
+	color: #F6B96C;
+}
+
+.text-white{
+	color: white;
+}
+
+.pd-3{
+	padding: 3%;
+}
+
+.pd-5{
+	padding: 5%;
+}
+
+.pb-3{
+	padding-bottom: 3%;
+}
+
+.ib{
+	display: inline-block;
+}
+
+.pt-3{
+	padding-top: 3%;
+}
+
+.pt-5{
+	padding-top: 5%;
+}
+
+.pb-5{
+	padding-bottom: 5%;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.font-courgette{
+	font-family: 'Courgette';
+}
+
+.italic{
+	font-style: italic;
+}
+
+.w-100{
+	width: 100%;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.radius-4p{
+	border-radius: 4px;
+}
+
+.m-b{
+	margin-bottom: 5%;
+}

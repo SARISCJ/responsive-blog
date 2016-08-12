@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     font-size: 16px;
+     font-family: 'Open Sans', 'Courgette';
+}
+
+header{
+    background: #1c1821;
+    width: 100%;
+    height: 100px;
+}
+
+/*menu*/
+
+.logo{
+	width: 50%;
+}  
+
+.hambur{
+	display: none;
+}
+
+.botones a{
+    font-style: italic;
+    color: #fff;
+    padding-left: 5%;
+    text-decoration: none;
+}
+
+.botones a:hover{
+    color: #ffc700;
+    text-decoration: none;
+}
+
+/*Baner*/
+
+.bg-lirios{
+	background: url("../image/header-image.jpg");
+	background-size: cover;
+	padding: 10% 20%;
+}
+
+.spring h1{
+	font-size: 500%;
+}
+
+.spring nav a {
+	text-decoration: none;
+	padding: 0 3%;
+	color: inherit;
+}
+
+.spring nav a:hover {
+  color: #ffc700;
+}
+
+.spring{
+	padding: 10% 0 3% 0;
+}
+
+/*cuadros de flores*/
+
+.flowers h3{
+	margin-top: 10px;
+}
+
+.cuadro{
+	margin:2%;
+}
+
+.cuadro nav a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.cuadro nav a:hover {
+  color: #ffc700;
+}
+
+/*articulo*/
+.articulo{
+	margin:2%;
+}
+
+.article h3{
+	padding-top: 10px;
+}
+
+.article p{
+	padding: 10px;
+} 
+
+.article a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.article a:hover {
+  color: #ffc700;
+}
+
+.search{
+	display: block;
+	margin: auto;
+	border: none;
+	width: 100%;
+	height: 50px;
+	color: white;
+	font-size: 1rem;
+}
+
+.icono{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 6px;
+	display: inline-block;
+	color: white;
+	margin: 2%;
+}
+
+.icono:hover {
+  background-color: white;
+  color: black;
+}
+
+.nk {
+	color: #222235;
+	text-decoration: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width : 980px) {
+	.imagenlogo{
+		width: 100%;
+	}
+
+	.logo{
+		width: 30%;
+	}
+
+	header{
+    height: 60px;
+	}
+
+	.hambur{
+		color: white;
+		cursor: pointer;
+		display: inline-block;
+		float: right;
+		padding-top: 3%;
+		font-size: 35px;
+	}
+
+	.imagenlogo i:hover {
+  	color: #ffc700;
+	}
+
+	.botones nav a{
+	display: none;
+	}
+
+	.spring h1{
+		font-size: 300%;
+	}
+	
+	.spring nav a{
+		font-size: 100%;
+	}
+
+	.bg-lirios{
+		padding: 15%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.col-4, .col-7, .col-5{
+		width: 100%;
+	}
+
+	header{
+    height: 60px;
+	}
+
+	.logo{
+		width:70%;
+	}
+
+	.spring h1{
+		font-size: 200%;
+	}
+	
+	.spring nav a{
+		font-size: 80%;
+	}
+
+	.bg-lirios{
+		padding: 7%;
+	}
+
+	.bg-purple .col-5 .bg-black{
+		display: none;
+	}
+}
